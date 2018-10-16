@@ -1,0 +1,74 @@
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.container {
+    text-align: center;
+    border: 3px double red;
+    width:45%;
+    height: auto;
+    margin: 20px auto;
+
+
+}
+
+header {
+    text-align: center;
+}
+
+#friends-pic {
+    width: 50%;
+    height: 300px;
+    border: 3px yellow dashed;
+    
+
+}
+
+#friends-banner {
+   height: 60px;
+   width: 50%;
+   margin-top: 20px;
+   
+
+}
+
+h1 {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+.underscore {
+    font-size: 25px;
+    margin: 10px auto;
+    width: 80%;
+    font-family: 'Loved by the King', cursive;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: dotted 2px rgb(57, 170, 235);
+    padding: 20px 0 20px 0;
+    
+}
+
+.guessesRemaining {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    border-bottom: dotted 2px rgb(57, 170, 235);
+    padding: 20px 0 30px 0;
+    margin: 10px auto;
+    width: 80%;
+
+}
+
+.lettersGuessed {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    border-bottom: dotted 2px rgb(57, 170, 235);
+    padding: 20px 0 30px 0;
+    margin: 10px auto;
+    width: 80%;
+}
+
