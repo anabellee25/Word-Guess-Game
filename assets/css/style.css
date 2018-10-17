@@ -36,9 +36,22 @@ header {
 }
 
 h1 {
-    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: rgb(245, 244, 231);
+    
+}
+
+h2 {
+    font-family: 'Londrina Sketch', cursive;
     font-size: 30px;
     margin: 20px auto;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .underscore {
