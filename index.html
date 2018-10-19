@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
   
   <!--- Google Fonts --->
-  <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Loved+by+the+King" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
@@ -30,14 +30,17 @@
     </header>
 
     <div class="container">
-        <h2>Press Any Key to Start!</h2>
-        <div class="underscore">_ _ _ _ _ _</div>
-        <div class="guessesRemaining">Number of Guesses Remaining:</div>
-        <div class="lettersGuessed">Letters Guessed:</div>
-
+        <h2 id="counter">Press Any Key to Start!</h2>
+       <div class="current">Current Word</div>
+       <div id="current-word">_ _ _ _</div>
+       <div class="guesses">Guesses Remaining: </div>
+       <div id="guesses-remaining">12</div>
+       <div class="letters">Letters Already Guessed: </div>
+       <div id="letters-guessed"></div>
     </div>
 
-    <link rel="text/javascript" href="assets/javascript/game.js">
+    <script rel="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </body>
 
